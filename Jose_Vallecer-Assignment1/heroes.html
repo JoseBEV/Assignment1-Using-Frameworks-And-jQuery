@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Heroes - Jose Vallecer</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="grey darken-4" role="navigation">
+    <div class="nav-wrapper container ">
+      <a id="logo-container" href="home.html" class="brand-logo">o<span class="orange-2">v</span>ert<span class="orange-2">u</span>re</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="heroes.html">Heroes</a></li>
+        <li><a href="recall.php">Recall</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="heroes.html">Heroes</a></li>
+        <li><a href="recall.php">Recall</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+      <div class="container">
+        <div class="parallax"><video  autoplay muted controls>
+	  <source src="videos/hanzo_intro_backflip.mp4" type="video/mp4">
+	  <source src="videos/hanzo_intro_backflip.ogg" type="video/ogg">
+	  Your browser does not support the video tag.
+	</video>
+        </div> 
+      </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+	 <div class="row">
+        <div class="col l5">
+
+        	<audio class="redemption" preload="auto">
+        		<source src="sounds/honor.mp3"></source>
+				    <source src="sounds/honor.ogg"></source>
+			   </audio>
+            <img class="portrait" src="images/hanzo_portrait.png" alt="Hanzo">
+        </div>
+        <div class="col l7">
+            <h4 class="center">Hanzo</h4>
+            <h5 class="center h5">“With every death comes honor. With honor, redemption.”</h5>
+            <p class="center">A lethal bowman and assassin without peer, Hanzo’s versatile arrows can reveal his enemies or fragment to strike multiple targets. He can scale walls to fire his bow from on high, or summon a titanic spirit dragon.
+			<br><br>
+            <img class="weapon" src="images/bow.png" height="48" alt="Bow Weapon">
+            Hanzo excels at killing enemies at mid-range with his bow.
+            <br><br>
+            <img class="ability" src="images/sonic_arrow.png" height="60"  alt="Sonic Arrow"><span class="one">Sonic Arrow reveals the location of nearby enemies.</span>
+            <br><br>
+            <img class="ability" src="images/dragonstrike.png" height="60"  alt="Dragon Attack"><span class="one">Use Dragonstrike to clear enemies from an objective.</span></p>
+				
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="full">
+  
+</div>
+
+  <div id="index-banner" class="parallax-container">
+      <div class="container">
+        <div class="parallax"><video id="mccreeVid" muted controls>
+	  <source src="videos/mccree_intro_rolling_into_action.mp4" type="video/mp4">
+	  <source src="mccree_intro_rolling_into_action.ogg" type="video/ogg">
+	  Your browser does not support the video tag.
+	</video>
+        </div> 
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+	 <div class="row">
+        <div class="col l6">
+
+        	<audio class="dispense" preload="auto">
+        		<source src="sounds/justice.mp3"></source>
+				<source src="sounds/justice.ogg"></source>
+			</audio>
+            <img class="portrait-2" src="images/mccree_portrait.png" alt="Hanzo">
+        </div>
+        <div class="col l6">
+            <h4 class="center">McCree</h4>
+            <h5 class="center h5-2">"Justice ain't gonna dispense itself."</h5>
+            <p class="center">Gunslinger and vigilante, McCree makes use of his revolver to slay his foes, flashbangs to stun, and has a combat roll to avoid danger.
+			<br><br>
+            <img class="weapon-2" src="images/gun.png" height="60" alt="Revolver">McCree is a flexible hero with a highly accurate and powerful revolver.
+            <br><br>
+            <img class="ability-2" src="images/flashbang.png" height="60"  alt="Flash Bomb"><span class="two">Use a Flashbang to stun enemies in front of him.</span>
+            <br><br>
+            <img class="ability-2" src="images/deadeye.png" height="60"  alt="Skull"><span class="two">Deadeye targets all the enemies in his view for one shot kills.</span></p>
+				
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+  <footer class="page-footer blue-grey darken-3">
+    <div class="container container-foot">
+      <div class="row">
+        <div class="col s12 center">
+          <p class="grey-text text-lighten-4">A class project by Jose Vallecer</p>
+        </div>       
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+
+  <!-- Code that I used to mute the video, but it's very temperamental-->
+  <!--<script async src="https://www.youtube.com/iframe_api"></script>
+  -->
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/isInViewport.js"></script>
+  <script src="js/script.js"></script>
+
+
+
+  </body>
+</html>
